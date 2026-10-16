@@ -13,6 +13,7 @@ const App = () => {
   }, [input]);
   return (
     <div>
+      <h1>Sum Calculator</h1>
       <input
         type="number"
         value={input}
